@@ -12,7 +12,7 @@ public class DSU {
 
     public int find(int x) {
         operations++;
-        if (parent[x] != x) parent[x] = find(parent[x]); // path compression
+        if (parent[x] != x) parent[x] = find(parent[x]); 
         return parent[x];
     }
 
